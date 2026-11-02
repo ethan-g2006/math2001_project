@@ -31,4 +31,5 @@ example ( n : ℕ )
   · -- n = 1
     rewrite [h]
     decide
-  · 
+  · -- n ≥ 2
+    
