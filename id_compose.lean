@@ -2,4 +2,7 @@ import functions
 
 theorem id_compose { f : S → T }
 : id ∘ f = f := by
-  sorry
+  apply funext
+  intro x
+  show f (x) = f x
+  rfl
