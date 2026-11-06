@@ -6,4 +6,3 @@ theorem comp_surj_then_second_surj { S T U : Type } { f : S → T } { g : T → 
   intro u
   obtain ⟨s, hs⟩ := h u
   exists f s
-  
